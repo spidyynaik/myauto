@@ -1,10 +1,10 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Cyniteofficial/Auto-Filter-V5-Without-UrlShortner.git /Auto-Filter-V5-Without-UrlShortner
+  git clone https://github.com/spidyynaik/myauto.git /Spider
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /Auto-Filter-V5-Without-UrlShortner
+  git clone $UPSTREAM_REPO /Spider
 fi
 cd /Auto-Filter-V5
 pip3 install -U -r requirements.txt
