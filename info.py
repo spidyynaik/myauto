@@ -44,9 +44,9 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "EvaMaria")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/CyniteSupport')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/CyniteBackup')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', CyniteSupport')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/YourDemandZone')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/YourDemandZone')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t,me/YourDemandSupport')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
